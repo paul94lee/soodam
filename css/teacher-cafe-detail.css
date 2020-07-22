@@ -1,0 +1,270 @@
+@import url('common.css');
+
+.img-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-area > img {
+    font-size: 0;
+}
+
+.img-area > img {
+    width: 642px;
+    margin-right: 5px;
+
+}
+
+.img-area > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-area div > img {}
+
+.img-area div div {
+    font-size: 0;
+}
+
+.img-area div div img {
+    height: 100%
+}
+
+.img-area div div img:nth-type(1) {
+    margin-right: 5px;
+}
+
+.main-area {
+    display: flex;
+
+    position: static;
+}
+
+.content-area {
+    width: 66.6666%;
+}
+
+.content-header {
+    width: 90%;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.content-header ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f16370;
+}
+
+.content-header ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    color: #bbb;
+}
+
+.content-header ul li a.active {
+    color: #f16370;
+
+    border-bottom: 3px solid #f16370;
+}
+
+.content-area > div > div {
+    width: 90%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f16370;
+
+}
+
+.content-area div h3 {
+    font-size: 20px;
+
+    padding: 30px 0;
+}
+
+.content-area .cafe-intro h4 {
+    display: inline-block;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+}
+
+.content-area .cafe-intro img {
+    width: 100%;
+}
+
+.content-area .cafe-intro p {
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.content-area .community > div {
+    margin-bottom: 30px;
+}
+
+.content-area .community h4 {
+    font-size: 18px;
+    color: #626262;
+}
+
+.content-area .community .review > div {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+
+
+}
+
+.content-area .community .review div img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content-area .community .review div p {
+    margin-left: 60px;
+}
+
+.content-area .community .review div p span {
+    color: #f6f903;
+}
+
+.content-area .community .btn {
+    width: 305px;
+    margin: 0 auto;
+
+}
+
+.content-area .community .btn a {
+    display: inline-block;
+    color: #fff;
+    background: #f16370;
+    border-radius: 10px;
+    padding: 10px 130px;
+}
+
+.content-area .refund-policy {
+    border-bottom: none;
+}
+
+.content-area .refund-policy div {
+    background: #e5e5e5;
+    padding: 20px 30px;
+}
+
+.content-area .refund-policy div p {
+    margin-bottom: 10px;
+}
+
+.content-area .refund-policy div a {
+    text-decoration: underline;
+}
+
+.fix-sidebar {
+    width: 33.3334%;
+
+}
+
+.fix-sidebar > div {
+    border: solid 2px #f16370;
+    border-radius: 20px;
+    padding: 24px 30px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.fix-sidebar > div > div {
+    border-bottom: 1px solid #ccc;
+    min-height: 140px;
+    padding: 20px 15px;
+}
+
+
+
+.fix-sidebar .title {
+    font-size: 14px;
+    padding-top: 0;
+    
+}
+
+.fix-sidebar .title p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fix-sidebar .title div {
+    font-weight: bold;
+
+}
+
+.fix-sidebar .title div b {
+    display: inline-block;
+    margin-right: 5px;
+    color: #f16370;
+
+}
+.title-area{
+    position: relative;
+}
+.title-area img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+.fix-sidebar .sec p {
+    font-size: 18px;
+    padding: 10px 0;
+    padding-left: 30px;
+
+
+}
+
+.fix-sidebar .date p {
+    background: url(../img/user-detail-img/date.png) 0 no-repeat;
+}
+
+.fix-sidebar .loca p {
+    background: url(../img/user-detail-img/loca.png) 0 no-repeat;
+}
+
+.fix-sidebar .calc ul li {
+    font-size: 18px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fix-sidebar .btn {
+
+    min-height: 0;
+    border: none;
+    padding: 20px;
+    padding-bottom: 0;
+
+}
+
+.fix-sidebar .btn a {
+    display: inline-block;
+    background: #f16370;
+    width: 280px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
