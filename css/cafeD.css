@@ -1,0 +1,189 @@
+@import url('common.css');
+
+
+.visual p {
+    left: calc(50% - 90px);
+}
+
+.contents {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.contents:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.side_menu {
+    width: 193px;
+    border-right: 1px solid #f3848f;
+    height: 970px;
+    margin-top: 50px;
+    float: left;
+}
+
+.side_menu ul li {
+    padding-top: 32px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f3848f;
+    width: 175px;
+}
+
+.side_menu ul li span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f3848f;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1px;
+}
+.click{background:#f3848f;}
+
+.side_menu ul li a {
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+.con1 {
+    float: left;
+    margin-left: 94px;
+    margin-top: 42px;
+}
+
+.con1 .category .check {
+    border-collapse: collapse;
+    width: 865px;
+    height: 418px;
+    margin-top: 24px;
+}
+
+.con1 .category .check tr td{
+    border: 2px solid #a19a9b;
+}
+
+.con1 .category .check .cate1 td input {
+    width: 734px;
+    height: 36px;
+    margin-left: 22px;
+    border:1px solid #a19a9b;
+}
+
+.con1 .category .check .cate1 td p {
+    margin-left: 22px;
+    font-size:16px;
+    color:black;
+}
+
+.con1 .category .check .cate1 td p:nth-of-type(2) {
+    margin-top: 11px;
+}
+
+.contents h2{color:#f3848f; font-size:24px;}
+
+.contents p{color:#acacac; font-size:14px;}
+
+.category .check tr td {
+    width: 50%;
+}
+
+.category .check .cate3 > td{
+    vertical-align:top;
+}
+
+.category .check .cate3 td table{width:100%;padding:20px 0 0 20px;}
+
+.category .check .cate3 td table tr{}
+
+.category .check .cate3 td table tr td{ 
+    border:0px;
+    display:inline-block;
+    margin-bottom:30px;
+}
+
+.category .check .cate1 {
+    height: 108px;
+}
+
+.category .check .cate2 {
+    height: 42px;
+    text-align: center;
+}
+
+.category .check .cate3 {
+    height: 268px;
+}
+.category .check tr:nth-of-type(3) td{
+    
+}
+
+.category .check tr:nth-of-type(3) td div{
+    width:40%;
+}
+
+.category .btn {
+    width: 100%;
+    margin-top:12px;
+    text-align: center;
+    border-bottom:1px solid #bfbfbe;
+    padding-bottom:60px;
+}
+
+.category .btn a {
+    width: 100px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.category .btn a:nth-of-type(1) {
+    background: #f3848f;
+}
+
+.category .btn a:nth-of-type(2) {
+    background: #bfbfbe;
+    margin-left: 66px;
+}
+
+.con2{
+    margin-top:50px;
+}
+.con2 h3{font-size:24px; margin-top:26px;}
+.con2 .photo a{
+    margin-top:24px;
+    vertical-align: top;
+    display:inline-block;
+    width:196px;
+    height:186px;
+    background:#d9d9d9;
+    border-radius:10px;
+    text-align: center;
+    font-size:18px;
+    line-height: 186px;
+}
+.con2 .photo .add{
+    font-size:70px;
+    color:#707070;
+}
+.con2 input{margin-top:24px;}
+.juso p{
+    color:#000;
+    margin-top:22px;
+}
+.juso .short{margin-top:18px; width:52px; height:25px;}
+.juso input{width:376px;
+margin-top:10px;}
+.juso a{
+    text-align:center;
+    display:inline-block;
+    font-size:14px;
+    width:40px; height:25px;
+    border:1px solid #f3848f;
+    color:#f3848f;
+    border-radius:10px;
+    margin-left:5px;
+}

@@ -6,7 +6,6 @@
 
 .bin {
     width: 205px;
-    height: ;
 }
 
 .contents {margin-top:100px; width:1152px;}
@@ -15,7 +14,7 @@ position:relative;}
 .con1 {}
 
 .con1 h1 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 49px;
 }
 
@@ -23,7 +22,7 @@ position:relative;}
 }
 
 .con1 article h2 {
-    font-size: 22px;
+    font-size: 18px;
     color: #4c4747;
 }
 
@@ -41,7 +40,7 @@ position:relative;}
 }
 
 .con1 article figure figcaption p:nth-of-type(1) {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .con1 article figure small {
@@ -51,7 +50,7 @@ position:relative;}
 }
 
 .con1 article figure figcaption p:nth-of-type(2) {
-    font-size: 24.5px;
+    font-size: 18px;
     text-align:right;
 }
 
@@ -59,7 +58,7 @@ position:relative;}
 .con2{width:60%;
 margin-top:57px;}
 .con2 h2{
-    font-size: 22px;
+    font-size: 18px;
     color: #4c4747;
     margin-bottom:10px;
 }
@@ -69,10 +68,10 @@ height:227px;}
 
 .con3{margin-top:35px; position:relative;}
 .con3 h1{margin-bottom:43px;
-font-size:30px;}
+font-size:20px;}
 .con3 article h2{margin-bottom:12px;
 color:#4c4747;
-font-size:22px;}
+font-size:18px;}
 .con3 article form input{width:203px; height:45px;
 margin-bottom:5px;}
 .con3 article a{display:inline-block;
@@ -91,7 +90,7 @@ margin-bottom:5px;}
     margin:50px 0;
 }
 .con4 h1{
-    font-size:30px;
+    font-size:20px;
     margin-bottom:20px;
 }
 .con4 ul{
@@ -101,7 +100,7 @@ margin-bottom:5px;}
 .con4 ul li{
     list-style-type: square;
     list-style-position: inside;
-    font-size:22px;
+    font-size:18px;
     margin:10px 20px;
 }
 .con4 ul li:nth-of-type(1){color:#ff0017;}

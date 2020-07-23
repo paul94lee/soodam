@@ -7,7 +7,6 @@
 
 .search {
     width: 1152px;
-    height: 145px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -234,7 +233,6 @@
 
 .more {
     text-align: center;
-    margin-top: 3100px;
     border: 1px solid #aaaaaa;
     width: 200px;
     height: 68px;
