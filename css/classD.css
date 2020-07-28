@@ -138,3 +138,121 @@
     width:200px; height:50px; margin-top:30px;
     text-align: center; font-size:18px;
 }
+
+
+.cover_thum{
+    margin-top:50px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom:90px;
+}
+.cover_thum h2{font-size:24px; color:#f3848f;}
+.cover_thum h3{font-size:18px;}
+.cover_thum p{font-size:14px; color:#bfbfbe;}
+
+
+.float{margin-top:80px;}
+.float:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.float .floatL{
+    float:left;
+    width:30%;
+}
+
+.float .floatR{
+    float:right;
+    width:65%;
+}
+
+.floatR input{width:100%;}
+
+.float h3{margin-bottom:10px;}
+
+
+.floatR img{width:180px; height:180px;}
+
+.cover_thum .float:nth-of-type(2) .floatR img{width:180px; height:150px;}
+
+.cover_thum .float .floatR img+img{margin-left:10px;}
+
+
+.coverEx{margin-top:6px;}
+.thumEx{margin-top:10px;}
+
+.info3{
+    margin-top:50px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #bfbfbe;
+}
+.info3 h2{color:#f3848f; font-size:24px;}
+.info3 > p{color:#bfbfbe; font-size:14px;}
+.info3 .info3_1{margin-top:50px;}
+.info3 .info3_1 ul{}
+.info3 .info3_1 ul li{
+    width:30%;
+    display:inline-block;
+    margin:13px;
+}
+.info3 .info3_1 ul li a{
+    width:100%; height:260px;
+    display:inline-block;
+    border:1px solid #000;
+    color:#bfbfbe;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.info3 .info3_1 ul li input{
+    width:100%; height:100px;
+    margin-top:3px;
+}
+
+
+.myinfo{
+    margin-top:50px;
+    padding-bottom:80px;
+    border-bottom:1px solid #bfbfbe;
+}
+.myinfo h2{color:#f3848f; font-size:24px;}
+.myinfo h3{font-size:18px;}
+.myinfo .floatR a{margin-left: 40px; display:inline-block;}
+.myinfo .floatR a:nth-of-type(2){
+    width:100%; height:40px;
+    margin-top:10px;
+    border:1px solid #000; text-align: center;
+    line-height:40px; 
+}
+.myinfo .floatR a:nth-of-type(2):hover{background:#bfbfbe;}
+
+.myinfo div{
+    margin-top:50px;
+}
+.myinfo input{
+    margin-top:10px;
+    width:330px;
+    height:50px;
+}
+
+.myinfo .nickname p{color:#bfbfbe; font-size:14px;}
+
+.advice{margin-top:50px; padding-bottom:80px; border-bottom:1px solid #bfbfbe;}
+.advice h2{font-size:36px; color:#f3848f;}
+.advice ul{margin-top:50px;}
+.advice ul li{
+    margin:20px 0;
+    font-size:24px;
+}
+
+.save{text-align: end; margin-top:20px;}
+.save a{
+    display:inline-block;
+    width:80px;
+    height:40px;
+    background:#f3848f;
+    border-radius:10px;
+    line-height: 40px; text-align:center;
+}

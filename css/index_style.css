@@ -532,7 +532,8 @@
     .pink,
     .white,
     .white ul,
-    .banner-cont {
+    .banner-cont,
+    .location{
         width: 100%;
     }
 
