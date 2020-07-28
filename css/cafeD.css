@@ -170,6 +170,7 @@
     color:#707070;
 }
 .con2 input{margin-top:24px;}
+.juso{padding-bottom: 80px; border-bottom:1px solid #bfbfbe;}
 .juso p{
     color:#000;
     margin-top:22px;
@@ -186,4 +187,14 @@ margin-top:10px;}
     color:#f3848f;
     border-radius:10px;
     margin-left:5px;
+}
+
+.save{text-align: end; margin-top:20px;}
+.save a{
+    display:inline-block;
+    width:80px;
+    height:40px;
+    background:#f3848f;
+    border-radius:10px;
+    line-height: 40px; text-align:center;
 }

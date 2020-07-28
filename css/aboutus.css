@@ -1,14 +1,38 @@
 @import url('common.css');
-.top{margin: 1900px; height: 800px;}
-.top span{position: relative;}
 
 
- .top span{content: '';
-    width: 1500px;
-    height: 1500px;
-    background: #f74f4f;
+.top {
+    margin: 1900px;
+    height: 800px;
+}
+
+.top span {
+    position: relative;
+}
+
+
+.top span {
+    content: '';
+    width: 1000px;
+    height: 500px;
+    background: #f2727e;
+    ;
     opacity: 0.9;
-    border-radius: 1800px;
-    border: 1px solid #f74f4f;
+    border-radius: 0px 0px 500px 500px;
+    border: 1px solid #f2727e;
+    ;
     position: absolute;
-    align-content: center;
+    left: calc(25% - 4px);
+    top: calc(10% - 4px);
+}
+
+.top img {
+    width: 600px; height: auto;
+    align-items: center;
+    
+    left: calc(25% - 4px);
+    top: calc(20% - 4px);
+}
+
+.about{width:1900px; height:  2788px; 
+    background-color:#707070; }

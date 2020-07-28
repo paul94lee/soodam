@@ -206,6 +206,7 @@ header {
 
 .navi ul li a {
     padding: 10px;
+    30px;
 }
 
 .head1 {
@@ -220,7 +221,6 @@ header {
 
 
 footer {
-    width: 100%;
     margin-top: 100px;
     height: 150px;
     background: #eee;
@@ -298,49 +298,14 @@ figure {
 
 
 @media all and (min-width:769px) and (max-width:1024px) {
-    header {
-        width: 100%;
-    }
-    .hamburger ul {
-    font-size: 12px;
-}
-
-    .navi ul li {
-        font-size: 12px;
-    }
-
-
-    footer {
-        width: 100%;
-    }
-
     footer > div {
-        width: 90%;
-    }
-    main{
         width: 100%;
     }
-    
-    
 }
-
 
 @media all and (min-width:375px) and (max-width:768px) {
-    header {
-        width: 100%;
-    }
-
-    .navi ul li {
-        font-size: 10px;
-    }
-    .hamburger ul {
-    font-size: 10px;
-}
-    footer {
-        width: 100%;
-    }
-
     footer > div {
-        width: 90%;
+        width: 100%;
+
     }
 }
