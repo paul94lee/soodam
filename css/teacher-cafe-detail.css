@@ -1,16 +1,14 @@
 @import url('common.css');
 
 .img-area {
+    width: 60%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .img-area > img {
-    font-size: 0;
-}
-
-.img-area > img {
-    width: 642px;
+    width: 50%;
     margin-right: 5px;
 
 }
@@ -21,14 +19,17 @@
     flex-direction: column;
 }
 
-.img-area div > img {}
+.img-area div > img {
+    width: 100%;
+}
 
 .img-area div div {
     font-size: 0;
 }
 
 .img-area div div img {
-    height: 100%
+    width: 50%;
+    height: 100%;
 }
 
 .img-area div div img:nth-type(1) {
@@ -37,7 +38,8 @@
 
 .main-area {
     display: flex;
-
+    width: 60%;
+    margin: 0 auto;
     position: static;
 }
 
@@ -194,7 +196,7 @@
 .fix-sidebar .title {
     font-size: 14px;
     padding-top: 0;
-    
+
 }
 
 .fix-sidebar .title p {
@@ -213,10 +215,12 @@
     color: #f16370;
 
 }
-.title-area{
+
+.title-area {
     position: relative;
 }
-.title-area img{
+
+.title-area img {
     position: absolute;
     right: 0;
     top: 0;
@@ -267,4 +271,118 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
+}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .img-area {
+        width: 100%;
+
+    }
+
+    .main-area {
+        width: 100%;
+    }
+
+    .content-bind {
+        width: 90%;
+        margin: 0 auto;
+    }
+.fix-sidebar > div > div:nth-of-type(1){
+        padding:0;
+    min-height: 70px;
+    }
+.title-area img {
+        width: 50px;
+    height: 50px;
+    }
+
+    .fix-sidebar .btn,
+    .fix-sidebar .btn a {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media all and (min-width:320px) and (max-width:767px) {
+    .img-area {
+        width: 100%;
+
+    }
+
+    .img-area > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-area div {
+        display: none;
+    }
+
+    .main-area {
+        width: 100%;
+        display: block;
+        position: relative;
+
+    }
+
+    .content-area,
+    .content-area > * {
+        width: 100%;
+    }
+
+    .content-area > div > div {
+        margin: 0 auto;
+
+    }
+
+    .content-header ul li a {
+        font-size: 12px;
+    }
+
+    .content-bind div p {
+        font-size: 15px !important;
+    }
+
+    .content-bind div li {
+        font-size: 15px !important;
+    }
+
+    .fix-sidebar {
+        position: none;
+        width: 100%;
+    }
+
+    .fix-sidebar div {
+        border: none;
+        padding: 0;
+    }
+
+    .fix-sidebar div p,
+    .fix-sidebar div li {
+        font-size: 15px !important;
+    }
+
+    .fix-sidebar > div > div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fix-sidebar .btn {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .fix-sidebar .btn a {
+        width: 100%;
+
+        border-radius: 5px 5px 0 0;
+
+
+    }
 }
