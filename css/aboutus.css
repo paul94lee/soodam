@@ -4,6 +4,7 @@
 .top {
     margin: 0;
     height: auto;
+    margin-bottom: 50px;
 
 }
 
@@ -51,7 +52,7 @@
 
     width: 100%;
     height: auto;
-
+    padding-top: 50px;
     background-color: #707070;
     background-repeat: no-repeat;
     background-position: 10% 100px;
@@ -63,21 +64,22 @@
     position: relative;
     width: 1400px;
     height: auto;
-    padding-left: 20%;
+    padding-left: 30%;
 
 
 }
 
 .about01 h1 {
-    
+
     display: inline-block;
     color: #ffffff;
     font-size: 74px;
-    transform: rotate(90deg); 
-    transform-origin: left top; 
+    transform: rotate(90deg);
+    transform-origin: left top;
     float: left;
-    padding-left: 70px;
-    
+    margin-left: 95px;
+    margin-top: 100px;
+
 
 
 
@@ -101,8 +103,8 @@
 
 .about01 img {
     width: 600px;
-    margin-left: 500px;
-    margin-top: 100px;
+    margin-left: 150px;
+    padding-bottom: 100px;
 
 
 }
@@ -150,8 +152,8 @@
     position: relative;
 
     width: 100%;
-    height: 1200px;
-    position: absolute;
+    height: auto;
+    padding-top: 50px;
     background-color: #707070;
     background-repeat: no-repeat;
     background-position: 10% 100px;
@@ -161,22 +163,86 @@
 
 .vision01 {
     position: relative;
+    width: 1400px;
+    height: auto;
+    padding-left: 30%;
+
 
 }
 
 .vision01 h1 {
-    width: 90px;
-    height: auto;
+
     display: inline-block;
     color: #ffffff;
     font-size: 74px;
-    writing-mode: vertical-rl;
+    
+    transform-origin: left top;
+    float: left;
+    margin-left: 95px;
+
+
 
 
 }
 
-.about01 span {
+.vision01 span {
     position: relative;
+}
+
+.vision01 span : before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.9;
+    border-radius: 6px;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(0% - 15px);
+}
+
+.vision01 img {
+    width: 300px;
+    margin-left: 150px;
+    
+
+
+}
+
+
+.vision_text {
+    width: 770px;
+    height: 400px;
+
+    display: inline-block;
+}
+
+.vision p {
+
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-align: left;
+
+
+}
+
+.vision a {
+    display: inline-block;
+
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: -2.5px;
+    text-align: left;
+    color: #ffffff;
 }
 
 

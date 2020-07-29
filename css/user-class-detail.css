@@ -355,10 +355,14 @@
     .main-area {
         width: 100%;
     }
+
+        .curri div ul > li img{
+        width: 40%;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:1024px) {
-    .img-area {
+.img-area {
         width: 100%;
 
     }
@@ -366,6 +370,46 @@
     .main-area {
         width: 100%;
     }
+
+    .content-bind {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .content-bind div{
+        width: 100% !important;
+    }
+        .content-area{
+        width: 60%;
+    }
+.fix-sidebar {
+    width: 40%;
+
+}
+    
+    
+.fix-sidebar > div > div:nth-of-type(1){
+        padding:0;
+    min-height: 70px;
+    }
+
+    .fix-sidebar .btn,
+    .fix-sidebar .btn a {
+        width: 100%;
+    }
+    
+    .curri div ul > li {
+        
+    }
+    .curri div ul > li img{
+        width: 40%;
+    }
+
+
+    .curri div ul > li div {
+        margin-left: 15px;
+    }
+
 }
 
 

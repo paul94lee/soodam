@@ -256,3 +256,167 @@
     border-radius:10px;
     line-height: 40px; text-align:center;
 }
+
+
+
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .side_menu{display:none;}
+    .con1{margin:0 auto; width:100%; float:none;}
+    .create .img a{width:30%;  margin-left:26px;}
+    .create .img a+a{ margin-left:26px;}
+    .create .img a img{width:100%;}
+    .develop .img a{width:30%; margin-left:26px;}
+    .develop .img a img{width:100%;}
+    .con1 h2, .con1 h3, .con1 a, .con1 p{font-size:2rem;}
+    .sebu p{width:100%; height:20%; margin:0 auto;}
+        .date input:nth-of-type(2), .date input:nth-of-type(3){
+    width:300px; height:60px; margin-top:30px;
+    text-align: center; font-size:22px;
+    }
+ 
+    .date input:nth-of-type(1){
+    margin-top:50px;
+    width:700px; height:60px;
+    font-size:22px; padding-left:20px;
+    }
+
+    .date select{
+    margin-top:30px; padding-left:20px;
+    }
+    .sebu input{
+    width:100%;
+    margin-top:10px;
+    height:60px; font-size:22px;
+    }
+    .class_info{text-align: center;}
+    .save{text-align: center; margin-top:50px;}
+    .save a{width:250px; height:60px;
+    line-height: 60px;}
+    
+    
+    .info3 .info3_1 ul li{
+    width:45%; 
+    display:inline-block;
+    margin:20px;
+}
+    
+    .myinfo .floatL{float:none; display:inline;}
+    .myinfo .floatR a{margin:0;}
+    .myinfo .floatR{float:none; display:inline;}
+    .myinfo{text-align: center;}
+    .myinfo h3{font-size:2rem;}
+    .myinfo .nickname p{font-size:24px;}
+    
+    
+    .cover_thum{text-align: center;}
+    .cover_thum h3{font-size:2rem;}
+    .cover_thum .float .floatL{
+    float:none;
+    width:50%;
+        margin:0 auto;
+    }
+    .cover_thum .float:nth-of-type(1) .floatL img{
+        width:100%; height:500px;
+    }
+    .cover_thum .float .floatL img{
+        width:100%; height:300px;
+    }
+
+    .cover_thum .float .floatR{
+    float:none;
+    width:70%;
+        margin:0 auto;
+    }
+    .cover_thum .float .floatR input{width:50%; height:50px;}
+    
+    .class_info h2 {font-size:30px;}
+    .class_info > p{font-size:22px;}
+    
+    .cover_thum h2 {font-size:30px;}
+    .cover_thum > p{font-size:22px;}
+    .cover_thum .floatR h2{font-size:30px;}
+    .cover_thum .floatR p{font-size:22px;}
+    .phoneNum input{font-size:22px;}
+}
+
+@media all and (min-width:320px) and (max-width:767px) {
+    .side_menu{display:none;}
+    .con1{margin:0 auto; width:100%; float:none;}
+    .create .img a{width:30%;  margin-left:26px;}
+    .create .img a+a{ margin-left:26px;}
+    .create .img a img{width:100%;}
+    .develop .img a{width:30%; margin-left:26px;}
+    .develop .img a img{width:100%;}
+    .con1 h2, .con1 h3, .con1 a, .con1 p{font-size:2rem;}
+    .sebu p{width:100%; height:20%; margin:0 auto;}
+    
+    .date input:nth-of-type(2), .date input:nth-of-type(3){
+    width:300px; height:60px; margin-top:30px;
+    text-align: center; font-size:22px;
+    }
+ 
+    .date input:nth-of-type(1){
+    margin-top:50px;
+    width:700px; height:60px;
+    font-size:22px; padding-left:20px;
+    }
+
+    .date select{
+    margin-top:30px; padding-left:20px;
+    }
+    .sebu input{
+    width:100%;
+    margin-top:10px;
+    height:60px; font-size:22px;
+    }
+    .class_info{text-align: center;}
+    .save{text-align: center; margin-top:50px;}
+    .save a{width:250px; height:60px;
+    line-height: 60px;}
+    
+    
+    .info3 .info3_1 ul li{
+    width:45%; 
+    display:inline-block;
+    margin:20px;
+    }
+    
+    .myinfo .floatL{float:none; display:inline;}
+    .myinfo .floatR a{margin:0;}
+    .myinfo .floatR{float:none; display:inline;}
+    .myinfo{text-align: center;}
+    .myinfo h3{font-size:2rem;}
+    .myinfo .nickname p{font-size:24px;}
+    }
+    .cover_thum{text-align: center;}
+    .cover_thum h3{font-size:2rem;}
+    .cover_thum .float .floatL{
+    float:none;
+    width:50%;
+        margin:0 auto;
+    }
+
+    .cover_thum .float:nth-of-type(1) .floatL img{
+        width:100%; height:500px;
+    }
+    .cover_thum .float .floatL img{
+        width:100%; height:400px;
+    }
+
+    .cover_thum .float .floatR{
+    float:none;
+    width:70%;
+        margin:0 auto;
+    }
+    .cover_thum .float .floatR input{width:50%; height:50px;}
+
+    .class_info h2 {font-size:30px;}
+    .class_info > p{font-size:22px;}
+
+    .cover_thum h2 {font-size:30px;}
+    .cover_thum > p{font-size:22px;}
+    .cover_thum .floatR h2{font-size:30px;}
+    .cover_thum .floatR p{font-size:22px;}
+    .phoneNum input{font-size:22px;}
+}
