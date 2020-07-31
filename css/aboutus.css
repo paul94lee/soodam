@@ -102,7 +102,7 @@
 
     color: #ffffff;
     font-size: 35px;
-    
+
     text-align: left;
     margin-bottom: 20px;
 
@@ -114,7 +114,7 @@
 
     color: #ffffff;
     font-size: 25px;
-    
+
     text-align: left;
     color: #ffffff;
     margin-bottom: 150px;
@@ -131,7 +131,7 @@
 
     color: #ffffff;
     font-size: 35px;
-    
+
     text-align: left;
     margin-bottom: 20px;
 
@@ -143,9 +143,9 @@
 
     color: #ffffff;
     font-size: 25px;
-    
 
-    
+
+
     text-align: left;
     color: #ffffff;
     margin-bottom: 150px;
@@ -371,13 +371,13 @@ footer {
 
     .top span p {
         font-size: 310%;
-
+        margin-left: 20%;
     }
 
     .top span img {
         width: 25%;
         height: auto;
-        margin-left: 50%;
+        margin-left: 60%;
         margin-bottom: 20%;
     }
 
@@ -386,7 +386,7 @@ footer {
         position: relative;
         width: 100%;
         padding-left: 10%;
-        ;
+
     }
 
     .about h1 {
@@ -407,82 +407,111 @@ footer {
     }
 
     .about_text01 {
+        width: 50%;
         display: inline-block;
         padding-bottom: 100px;
-        width: 550px;
+        margin-left: 30%;
         height: auto;
     }
 
     .about_text01 p {
 
         font-size: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10%;
     }
 
     .about_text01 a {
 
         font-size: 100%;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
 
 
-    .team {
-        padding-left: 80px;
+    .team {width: 100%;
+        padding-left:10%;
     }
 
     .team h1 {
-        font-size: 44px;
+        font-size: 250%;
     }
 
     .team ul li img {
-        width: 380px;
+        width: 40%;
     }
 
-    .team ul li {
-        margin-bottom: 55px;
+    .team ul li { padding-left: 20%;
+        margin-bottom: 5%;
     }
 
     .team ul li p {
-        padding-left: 150px;
+        font-size: 100%;
+        padding-left: 20%;
+    }
+     .team ul li a {
+        font-size: 100%;
+        padding-left: 0%;
     }
 
+    
+    
+    
+    
+    
+    
+    
+    .vision {
+        position: relative;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    
     .subject {
         position: relative;
         width: 100%;
         padding-left: 9%;
     }
 
+   
     .vision h1 {
-        font-size: 44px;
-        margin-left: 10px;
+        font-size: 250%;
     }
 
-    .vision img {
-        width: 250px;
-        margin-left: 30px;
+    .visiom img {
+        width: 40%;
         padding-bottom: 50px;
-        margin-top: -500px;
+        margin-top: 50px;
+    }
 
+    .subject {
+        width: 100%;
+
+    }
+
+    .subject img {
+        width: 40%;
+
+        padding-bottom: 50px;
+        margin-top: 50px;
     }
 
     .about_text02 {
+        width: 50%;
         display: inline-block;
         padding-bottom: 100px;
-        width: 450px;
+        margin-left: 30%;
         height: auto;
     }
 
     .about_text02 p {
-        margin-left: 0px;
-        font-size: 25px;
-        margin-bottom: 15px;
+        font-size: 100%;
+        margin-bottom: 10%;
     }
 
     .about_text02 a {
-        margin-left: 0px;
-        font-size: 20px;
-        margin-bottom: 25px;
+        font-size: 100%;
+        margin-bottom: 10%;
     }
 }
 
@@ -595,24 +624,27 @@ footer {
         padding-left: 9%;
     }
 
+
+    .vision {
+        position: relative;
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
     .vision h1 {
         margin-left: -190px;
         font-size: 44px;
         padding-top: -500px;
-
     }
 
-    .vision {
-        margin-left: 0%;
-    }
+
 
 
     .vision img {
         width: 250px;
         margin-left: -350px;
         margin-top: 250px;
-
-
     }
 
     .about_text02 {
