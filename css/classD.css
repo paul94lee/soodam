@@ -221,7 +221,7 @@
 .myinfo h3{font-size:18px;}
 .myinfo .floatR a{margin-left: 40px; display:inline-block;}
 .myinfo .floatR a:nth-of-type(2){
-    width:100%; height:40px;
+    width:90%; height:40px;
     margin-top:10px;
     border:1px solid #000; text-align: center;
     line-height:40px; 
@@ -261,16 +261,19 @@
 
 
 @media all and (min-width:768px) and (max-width:1024px) {
+    .contents{width:100%;}
     .side_menu{display:none;}
     .con1{margin:0 auto; width:100%; float:none;}
-    .create .img a{width:30%;  margin-left:26px;}
+    .create .img a{width:29%;  margin-left:26px;}
     .create .img a+a{ margin-left:26px;}
     .create .img a img{width:100%;}
-    .develop .img a{width:30%; margin-left:26px;}
+    .develop .img a{width:29%; margin-left:26px;}
     .develop .img a img{width:100%;}
-    .con1 h2, .con1 h3, .con1 a, .con1 p{font-size:2rem;}
-    .sebu p{width:100%; height:20%; margin:0 auto;}
-        .date input:nth-of-type(2), .date input:nth-of-type(3){
+    .con1 h2{font-size:20px;}
+    .con1 p{font-size:12px;}
+    .sebu p{width:90%; height:20%; margin:0 auto;}
+    
+    .date input:nth-of-type(2), .date input:nth-of-type(3){
     width:300px; height:60px; margin-top:30px;
     text-align: center; font-size:22px;
     }
@@ -282,10 +285,10 @@
     }
 
     .date select{
-    margin-top:30px; padding-left:20px;
+    margin-top:30px; padding-left:20px; width:90%;
     }
     .sebu input{
-    width:100%;
+    width:90%;
     margin-top:10px;
     height:60px; font-size:22px;
     }
@@ -294,11 +297,21 @@
     .save a{width:250px; height:60px;
     line-height: 60px;}
     
-    
+    .info3 h2{font-size:30px; text-align: center;}
+    .info3 > p{font-size:22px; text-align: center;}
     .info3 .info3_1 ul li{
-    width:45%; 
+    width:43%; 
     display:inline-block;
-    margin:20px;
+    margin:25px;
+    }
+    
+    .info3 .info3_1 ul li a{
+    width:100%; height:250px;
+    
+}
+.info3 .info3_1 ul li input{
+    width:100%; height:60px;
+    margin-top:3px;
 }
     
     .myinfo .floatL{float:none; display:inline;}
@@ -308,47 +321,60 @@
     .myinfo h3{font-size:2rem;}
     .myinfo .nickname p{font-size:24px;}
     
-    
     .cover_thum{text-align: center;}
     .cover_thum h3{font-size:2rem;}
     .cover_thum .float .floatL{
     float:none;
-    width:50%;
+    width:100%;
         margin:0 auto;
     }
+
     .cover_thum .float:nth-of-type(1) .floatL img{
-        width:100%; height:500px;
+        width:80%; height:350px;
     }
     .cover_thum .float .floatL img{
-        width:100%; height:300px;
+        width:80%; height:300px;
     }
 
     .cover_thum .float .floatR{
     float:none;
-    width:70%;
+    width:80%;
         margin:0 auto;
     }
-    .cover_thum .float .floatR input{width:50%; height:50px;}
-    
+    .cover_thum .float .floatR input{width:100%; height:50px;}
+
     .class_info h2 {font-size:30px;}
     .class_info > p{font-size:22px;}
-    
+
     .cover_thum h2 {font-size:30px;}
     .cover_thum > p{font-size:22px;}
-    .cover_thum .floatR h2{font-size:30px;}
+    .cover_thum .floatR h2{font-size:24px;}
     .cover_thum .floatR p{font-size:22px;}
     .phoneNum input{font-size:22px;}
+
+    .date input:nth-of-type(1){
+        width:90%;
+    }
+    .date input:nth-of-type(2), .date input:nth-of-type(3){
+        width:40%;
+    }
+    .info form select{
+        width:90%;
+    }
+    .contents h2{font-size:24px;}
 }
 
 @media all and (min-width:320px) and (max-width:767px) {
+    .contents{width:100%;}
     .side_menu{display:none;}
     .con1{margin:0 auto; width:100%; float:none;}
-    .create .img a{width:30%;  margin-left:26px;}
-    .create .img a+a{ margin-left:26px;}
+    .create .img a{width:25%;  margin-left:20px;}
+    .create .img a+a{ margin-left:20px;}
     .create .img a img{width:100%;}
-    .develop .img a{width:30%; margin-left:26px;}
+    .develop .img a{width:25%; margin-left:20px;}
     .develop .img a img{width:100%;}
-    .con1 h2, .con1 h3, .con1 a, .con1 p{font-size:2rem;}
+    .con1 h2{font-size:20px;}
+    .con1 p{font-size:12px;}
     .sebu p{width:100%; height:20%; margin:0 auto;}
     
     .date input:nth-of-type(2), .date input:nth-of-type(3){
@@ -377,10 +403,19 @@
     
     
     .info3 .info3_1 ul li{
-    width:45%; 
+    width:43%; 
     display:inline-block;
-    margin:20px;
+    margin:10px;
     }
+    
+    .info3 .info3_1 ul li a{
+    width:100%; height:150px;
+    
+}
+.info3 .info3_1 ul li input{
+    width:100%; height:50px;
+    margin-top:3px;
+}
     
     .myinfo .floatL{float:none; display:inline;}
     .myinfo .floatR a{margin:0;}
@@ -388,20 +423,20 @@
     .myinfo{text-align: center;}
     .myinfo h3{font-size:2rem;}
     .myinfo .nickname p{font-size:24px;}
-    }
+    
     .cover_thum{text-align: center;}
     .cover_thum h3{font-size:2rem;}
     .cover_thum .float .floatL{
     float:none;
-    width:50%;
+    width:100%;
         margin:0 auto;
     }
 
     .cover_thum .float:nth-of-type(1) .floatL img{
-        width:100%; height:500px;
+        width:100%; height:350px;
     }
     .cover_thum .float .floatL img{
-        width:100%; height:400px;
+        width:100%; height:300px;
     }
 
     .cover_thum .float .floatR{
@@ -409,14 +444,25 @@
     width:70%;
         margin:0 auto;
     }
-    .cover_thum .float .floatR input{width:50%; height:50px;}
+    .cover_thum .float .floatR input{width:100%; height:50px;}
 
-    .class_info h2 {font-size:30px;}
-    .class_info > p{font-size:22px;}
+    .class_info h2 {font-size:24px;}
+    .class_info > p{font-size:12px;}
 
-    .cover_thum h2 {font-size:30px;}
-    .cover_thum > p{font-size:22px;}
-    .cover_thum .floatR h2{font-size:30px;}
-    .cover_thum .floatR p{font-size:22px;}
+    .cover_thum h2 {font-size:24px;}
+    .cover_thum > p{font-size:12px;}
+    .cover_thum .floatR h2{font-size:22px;}
+    .cover_thum .floatR p{font-size:12px;}
     .phoneNum input{font-size:22px;}
+
+    .date input:nth-of-type(1){
+        width:100%;
+    }
+    .date input:nth-of-type(2), .date input:nth-of-type(3){
+        width:40%;
+    }
+    .info form select{
+        width:100%;
+    }
+    .advice ul li{font-size:18px;}
 }

@@ -198,10 +198,141 @@ margin-top:10px;}
 h1{
     font-size: 20px;
 }
-h2{
-    font-size: 18px;
-}
+
 h2{
     font-size: 16px;
 }
+
+
+
+
+
+@media all and (min-width:768px) and (max-width:1024px){
+    .wid66 {width:100%; text-align: center;}
+    .fix-sidebar {position:relative;width:100%;}
+    .contents{width:100%;}
+    .con1 article h2 {
+        text-align: start;
+        margin-left:50px;
+   
+}
+    .con1 article figure {
+    display:flex;
+    white-space: pre-line;
+        margin-top:20px;
+        width:90%;
+}
+
+.con1 article figure img {
+    width:40%; height:277px;
+    margin-left:50px;
+}
+
+.con1 article figure figcaption {
+    width:55%;
+}
+    .con3 article form input{}
+    .con3 article a{
+        left:500px;
+    }
+    .con5 a:nth-of-type(1){margin-left:20px;}
+    .fix-sidebar .btn a {
+        position:fixed;
+        bottom:0; left:0;
+        display: inline-block;
+        background: #f16370;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+        color: #fff;
+    font-size: 30px;
+    }
+    .fix-sidebar > div {
+        margin:40px auto 80px auto;
+        width:90%;
+    border:none;
+    padding: 24px 30px;
+    background: #fff;
+    }
+    footer{display:none;}
+
+}
+
+@media all and (min-width:320px) and (max-width:767px){
+    .wid66 {width:100%; text-align: center;}
+    .fix-sidebar {position:relative;width:100%;}
+    .contents{width:100%;}
+    .con1 article h2 {
+        text-align: start;
+   
+}
+    .con1 article figure {
+    display:flex;
+    white-space: pre-line;
+        margin-top:20px;
+        width:100%;
+}
+
+.con1 article figure img {
+    width:40%; height:170px;
+    margin-left:5px;
+}
+
+.con1 article figure figcaption {
+    width:55%; margin-left:5px;
+    line-height: 20px;
+}
+    
+ 
+
+.con1 article figure figcaption p:nth-of-type(1) {
+    font-size: 18px;
+}
+
+.con1 article figure small {
+    font-size: 12px;
+    display:block;
+    margin:0;
+}
+
+.con1 article figure figcaption p:nth-of-type(2) {
+    font-size: 20px;
+    text-align:right;
+}
+    .con3{height:290px;}
+    .con3 h1{margin-bottom:20px;}
+    .con3 h2{color:#bebebe;}
+    .con3 article form input{}
+    .con3 article a{
+        left:calc(50% - 50px); bottom:20px;
+    }
+    
+    .con5 a{margin-left:20px;}
+    
+    .fix-sidebar .btn a {
+        position:fixed;
+        bottom:0; left:0;
+        display: inline-block;
+        background: #f16370;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+        color: #fff;
+    font-size: 30px;
+    }
+    .fix-sidebar > div {
+        margin:40px auto 80px auto;
+        width:90%;
+    border:none;
+    padding: 24px 30px;
+    background: #fff;
+
+    }
+
+    .fix-sidebar .title p {font-size:20px;}
+    footer{display:none;}
+}
+
 

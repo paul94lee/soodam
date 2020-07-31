@@ -235,4 +235,152 @@ margin-top:10px;}
 .fix-sidebar .btn div span{font-size:18px;}
 
 
+@media all and (min-width:768px) and (max-width:1024px){
+    .contents {margin-top:100px; width:100%;}
+    .wid66 {width:100%; text-align: center;}
+    .con1 article h2 {
+        text-align: start;
+        margin-left:50px;
+   
+}
+    .con1 article figure {
+    display:flex;
+    white-space: pre-line;
+        margin-top:20px;
+        width:90%;
+}
 
+.con1 article figure img {
+    width:40%; height:277px;
+    margin-left:50px;
+}
+
+.con1 article figure figcaption {
+    width:55%;
+}
+    
+    .con2{width:90%; margin:58px auto 58px auto;}
+    
+    
+    
+    .con3 article a{left:500px;}
+    
+    .con4{
+        text-align: start;
+        width:60%;
+        margin:50px auto;
+    }
+    
+    .con5{width:100%;}
+    .con5 a:nth-of-type(1){margin-left:20px;}
+    
+    .fix-sidebar {position:relative;width:100%;}
+    .fix-sidebar .btn a {
+        position:fixed;
+        bottom:0; left:0;
+        display: inline-block;
+        background: #f16370;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+        color: #fff;
+    font-size: 30px;
+    }
+    .fix-sidebar > div {
+        margin:40px auto 80px auto;
+        width:90%;
+    border:none;
+    padding: 24px 30px;
+    background: #fff;
+
+    }
+
+    .fix-sidebar .title p {font-size:20px;}
+    footer{display:none;}
+}
+    
+@media all and (min-width:320px) and (max-width:767px){
+    .contents {margin-top:100px; width:100%;}
+    .wid66 {width:100%; text-align: center;}
+    .con1 article h2 {
+        text-align: start;
+   
+}
+    .con1 article figure {
+    display:flex;
+    white-space: pre-line;
+        margin-top:20px;
+        width:100%;
+}
+
+.con1 article figure img {
+    width:40%; height:170px;
+    margin-left:5px;
+}
+
+.con1 article figure figcaption {
+    width:55%; margin-left:5px;
+    line-height: 20px;
+}
+    
+ 
+
+.con1 article figure figcaption p:nth-of-type(1) {
+    font-size: 18px;
+}
+
+.con1 article figure small {
+    font-size: 12px;
+    display:block;
+    margin:0;
+}
+
+.con1 article figure figcaption p:nth-of-type(2) {
+    font-size: 20px;
+    text-align:right;
+}
+    
+    .con2{width:95%; margin:58px auto 58px auto;}
+    .con2 form input{height:150px;}
+    
+    .con3{height:400px;}
+    .con3 article a{left:calc(50% - 50px);
+        bottom:20px;
+    }
+    
+    .con4{
+        text-align: start;
+        width:100%;
+        margin:50px auto;
+    }
+    
+    .con5{width:100%;}
+    .con5 a{margin-left:20px;}
+    
+    .fix-sidebar {position:relative;width:100%;}
+    .fix-sidebar .btn a {
+        position:fixed;
+        bottom:0; left:0;
+        display: inline-block;
+        background: #f16370;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+        color: #fff;
+    font-size: 30px;
+    }
+    .fix-sidebar > div {
+        margin:40px auto 80px auto;
+        width:90%;
+    border:none;
+    padding: 24px 30px;
+    background: #fff;
+
+    }
+
+    .fix-sidebar .title p {font-size:20px; text-align: start;}
+    .fix-sidebar .title div{text-align: start;}
+    footer{display:none;}
+}
