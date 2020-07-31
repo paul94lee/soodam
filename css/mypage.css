@@ -177,6 +177,7 @@ padding:23px 0 0 24.5px;}
     h2{padding-left:20px;}
     .con1{margin-left:20px;}
     .con2 .alstjd ul li a.on{margin-left:20px;}
+    .alstjd3 h3, .alstjd3 p{display:none;}
 }
     
     
@@ -188,7 +189,7 @@ padding:23px 0 0 24.5px;}
     .alstjd2 .a1_a2 .a1{width:40%; margin-left:20px; margin-top:30px;}
     .alstjd2 .a1{width:40%; margin-left:20px; margin-top:30px;}
     .alstjd2 .a1 img{width:100%; height:160px;}
-    .alstjd2 .a2{display:none;}
+    .alstjd2 .a1_a2 .a2 figure img{display:none;}
     .alstjd1 .a1_a2 .a1{width:40%; margin-left:20px; margin-top:27px;}
     .alstjd1 .a1_a2 .a2{width:40%; float:right; margin-right:15px; margin-top:30px;}
     .alstjd1 .a1_a2 .a1 img{width:100%; height:160px;}
@@ -214,4 +215,14 @@ padding:23px 0 0 24.5px;}
     .con2 .alstjd ul li+li{margin-left:10px;}
     .alstjd2 .a1_a2 .a1 h2{font-size:18px; padding-left: 0;}
     .alstjd2 .a1_2 .a1 h2{font-size:18px; padding-left: 0;}
+    .alstjd3 h3, .alstjd3 p{display:none;}
+    .alstjd2 .a1 p, .alstjd2 .a1 h3{display:none;}
+    .alstjd2 .a1_a2 .a2{width:50%; margin:0; margin-top:30px;}
+    
+    .alstjd2 .a1_a2 .a2 figure figcaption{width:100%; padding:0; display:inline-block;}
+    .alstjd2 .a2 figcaption h2{font-size:20px; width:100%; margin-top:10px;}
+    .alstjd2 .a2 figcaption p{font-size:14px; width:100%; display:none;}
+    .alstjd2 .a2 figcaption span{font-size:12px; display:inline-block; width:100%;
+        line-height:22px;    padding-bottom:2px;
+    }
 }
