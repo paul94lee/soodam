@@ -207,11 +207,11 @@ padding:23px 0 0 24.5px;}
     .alstjd1 .a2 h2{font-size:18px; padding-left:0;}
     .alstjd1 .a1 h3{margin-top:0;}
     h2{padding-left:20px;}
-    .con1{padding-left:20px;}
+    .con1{padding-left:20px; width:100%;}
     .con2 .alstjd ul li a.on{margin-left:20px;}
     .alstjd4{text-align: center;}
     .alstjd4 img{width:90%;}
-    .con2 .alstjd .btn ul li a{font-size:14px;}
+    .con2 .alstjd .btn ul li a{font-size:12px;}
     .con2 .alstjd ul li+li{margin-left:10px;}
     .alstjd2 .a1_a2 .a1 h2{font-size:18px; padding-left: 0;}
     .alstjd2 .a1_2 .a1 h2{font-size:18px; padding-left: 0;}

@@ -44,6 +44,7 @@
     background-color: #707070;
     background-repeat: no-repeat;
     opacity: 0.9;
+    overflow:hidden;
 }
 
 .about {
@@ -360,8 +361,12 @@ footer {
 
 
 @media all and (min-width:320px) and (max-width:767px) {
+
+       
+
     .top {
         background: none;
+
     }
 
     .top span {
@@ -370,7 +375,7 @@ footer {
     }
 
     .top span p {
-        font-size: 310%;
+        font-size: 100%;
         margin-left: 20%;
     }
 
@@ -396,7 +401,7 @@ footer {
 
     .about01 {
         width: 100%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .about01 img {
@@ -428,19 +433,24 @@ footer {
 
 
 
-    .team {width: 100%;
-        padding-left:10%;
+    .team {
+        
+        width: 100%;
+        padding-left: 10%;
     }
 
     .team h1 {
         font-size: 250%;
+        margin-left: 20%;
+
     }
 
     .team ul li img {
         width: 40%;
     }
 
-    .team ul li { padding-left: 20%;
+    .team ul li {
+        padding-left: 20%;
         margin-bottom: 5%;
     }
 
@@ -448,32 +458,34 @@ footer {
         font-size: 100%;
         padding-left: 20%;
     }
-     .team ul li a {
+
+    .team ul li a {
         font-size: 100%;
         padding-left: 0%;
     }
 
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     .vision {
+        overflow: hidden;
         position: relative;
         width: 100%;
-        padding-left: 10%;
+        padding-left: 10% ;
     }
 
-    
+
     .subject {
         position: relative;
         width: 100%;
         padding-left: 9%;
     }
 
-   
+
     .vision h1 {
         font-size: 250%;
     }
@@ -668,4 +680,7 @@ footer {
 }
 
 
-@media all and (width:1024px) {}
+@media all and (width:1024px) {.vision {
+        position: relative;
+        width: 100%;
+        margin-left: 0%;}
