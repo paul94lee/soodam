@@ -1,5 +1,6 @@
 {
-    "mainSlide": [{
+    "mainSlide": [
+        {
             "link": "user-class-detail.html",
             "imgSrc": "img/visual-content.jpg",
             "tit": "공기처럼 익숙해진 공간에 상상을\n입히는 잉크아트",
@@ -29,7 +30,6 @@
             "tit": "공기처럼 익숙해진 공간에 상상을\n 입히는 잉크아트",
             "subtit": "잉크펜과 수채화 총 5개의 작품 만들기"
         }
-
     ],
     "content": [
         {
@@ -39,8 +39,10 @@
             "categ": "making",
             "subCateg": "공예",
             "tit": "손뜨개 가방 만들기",
-            "address": "서울시 종로구 역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "location": "종로구",
+            "address": "역삼 1동 000-00번지 2층",
+            "price": "10회 11만원",
+            "cost":"20000"
         },
         {
             "classify": "popthing",
@@ -50,7 +52,10 @@
             "subCateg": "미술",
             "tit": "아이패드로 완성하는 일러스트",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"34000"
+            
         },
         {
             "classify": "popthing",
@@ -60,7 +65,9 @@
             "subCateg": "공예",
             "tit": "돌잔치 우리아이 특별한 가렌드",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"47000"
         },
         {
             "classify": "popthing",
@@ -70,10 +77,10 @@
             "subCateg": "음식/요리",
             "tit": "4색 쿠키 선물세트",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"12000"
         },
-        
-
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
@@ -82,7 +89,9 @@
             "subCateg": "공예",
             "tit": "미니데코와 함께하는 미니어쳐 세상",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"10000"
         },
         {
             "classify": "newthing",
@@ -92,7 +101,9 @@
             "subCateg": "공예",
             "tit": "미니데코와 함께하는 미니어쳐 세상",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"22000"
         },
         {
             "classify": "newthing",
@@ -102,8 +113,11 @@
             "subCateg": "공예",
             "tit": "미니데코와 함께하는 미니어쳐 세상",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
-        },
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"60000"
+        }
+        ,
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
@@ -112,7 +126,58 @@
             "subCateg": "공예",
             "tit": "미니데코와 함께하는 미니어쳐 세상",
             "address": "역삼 1동 000-00번지 2층",
-            "price": "10회 11만원"
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"10000"
+        }
+        ,
+        {
+            "classify": "newthing",
+            "link": "user-class-detail.html",
+            "imgSrc": "img/new-card4.jpg",
+            "categ": "making",
+            "subCateg": "공예",
+            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "address": "역삼 1동 000-00번지 2층",
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"45000"
+        },
+        {
+            "classify": "newthing",
+            "link": "user-class-detail.html",
+            "imgSrc": "img/new-card4.jpg",
+            "categ": "making",
+            "subCateg": "공예",
+            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "address": "성동구 1동 000-00번지 2층",
+            "price": "10회 11만원",
+            "location": "성동구",
+            "cost":"10000"
+        },
+        {
+            "classify": "newthing",
+            "link": "user-class-detail.html",
+            "imgSrc": "img/new-card4.jpg",
+            "categ": "making",
+            "subCateg": "공예",
+            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "address": "중구 1동 000-00번지 2층",
+            "price": "10회 11만원",
+            "location": "중구",
+            "cost":"10000"
+        },
+        {
+            "classify": "newthing",
+            "link": "user-class-detail.html",
+            "imgSrc": "img/new-card4.jpg",
+            "categ": "making",
+            "subCateg": "공예",
+            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "address": "용산 1동 000-00번지 2층",
+            "price": "10회 만원",
+            "location": "용산구",
+            "cost":"10000"
         }
     ]
 }
