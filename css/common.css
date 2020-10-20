@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 html,
 body {
@@ -24,7 +24,6 @@ h6,
 p {
     margin: 0;
     padding: 0;
-
 }
 
 a {
@@ -34,7 +33,7 @@ a {
 
 * {
     box-sizing: border-box;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 .f_center {
@@ -47,7 +46,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .fsize25 {
@@ -60,16 +58,13 @@ a {
 
 .fsize18 {
     font-size: 18px;
-
 }
 
 .fsize15 {
-
     font-size: 15px;
 }
 
 .fsize12 {
-
     font-size: 12px;
 }
 
@@ -123,10 +118,7 @@ a {
 }
 
 
-
-
-
-header {
+.head{
     width: 1152px;
     margin: 0 auto;
     margin-top: 10px;
@@ -134,10 +126,9 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-
-
+    position: relative;
+    vertical-align: center;
 }
-
 .hamburger {
     position: relative;
 }
@@ -145,7 +136,10 @@ header {
 .hamburger ul {
     font-size: 14px;
 }
-
+.hamburger ul li a{
+    display: inline-block;
+    margin-top:13px;
+}
 .menu_icon {
     display: inline-block;
     height: 22px;
@@ -168,8 +162,8 @@ header {
 }
 
 .border2 {
-    top: 0;
-    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
     margin: auto;
 }
 
@@ -181,18 +175,51 @@ header {
     display: flex;
     justify-content: flex-start;
 }
+.buger-wrap {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
 
+}
+.menu_icon.active span:nth-of-type(1) {
+    top: 50%;
+    transform: rotate(45deg);
+}
 
+.menu_icon.active span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.menu_icon.active span:nth-of-type(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+.hidden-menu {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    opacity: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: -1;
+}
+.hidden-menu.active {
+    opacity: 1;
+    z-index: 5;
+}
 .hamburger ul {
     width: 50%;
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
 }
-
-.hamburger ul li {}
-
-.navi {}
 
 .navi ul {
     display: flex;
@@ -210,14 +237,13 @@ header {
 
 .head1 {
     width: 42%;
+    position: relative;
 }
 
 .head2 {
     width: 16%;
     text-align: center;
 }
-
-
 
 footer {
     margin-top: 100px;
@@ -241,7 +267,6 @@ footer div p {
 
 footer div img {
     margin: 0 4px;
-
 }
 
 .visual {
@@ -267,7 +292,6 @@ footer div img {
     font-size: 40px;
     font-weight: bold;
     color: #544e4e;
-
 }
 
 .visual > p span {
@@ -275,7 +299,7 @@ footer div img {
 }
 
 .visual > p span:before {
-    content: '';
+    content: "";
     width: 8px;
     height: 8px;
     background: #f74f4f;
@@ -285,17 +309,13 @@ footer div img {
     position: absolute;
     left: calc(50% - 4px);
     top: calc(-10% - 4px);
-
 }
 
 figure {
     margin: 0;
 }
 
-
-
-
-@media all and (max-width:1024px) {
+@media all and (max-width: 1024px) {
     footer {
         width: 100%;
     }
@@ -310,26 +330,24 @@ figure {
     }
 }
 
-@media all and (min-width:768px) and (max-width:1024px) {
-
+@media all and (min-width: 768px) and (max-width: 1024px) {
     .navi ul li,
     .hamburger ul li {
         font-size: 10px;
     }
-    
+
     .visual {
         height: 200px;
     }
     .visual > img {
-    top: 0%;
-}
+        top: 0%;
+    }
 
     .visual > p {
         width: 100%;
         margin: 0;
         padding: 82px 0;
         font-size: 25px;
-
     }
 
     .visual > p span:before {
@@ -338,20 +356,15 @@ figure {
         border-radius: 4px;
         left: calc(50% - 3px);
         top: calc(-10% - 3px);
-
     }
-    
-    
-
-
 }
 
-@media all and (min-width:320px) and (max-width:767px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
     header {
         justify-content: flex-start;
         height: 50px;
     }
-    .head2 img{
+    .head2 img {
         width: 80%;
     }
     .hamburger ul {
@@ -375,16 +388,14 @@ figure {
         height: 100px;
     }
     .visual > img {
-    top: 0%;
-}
-
+        top: 0%;
+    }
 
     .visual > p {
         width: 100%;
         margin: 0;
         padding: 41px 0;
         font-size: 12px;
-
     }
 
     .visual > p span:before {
@@ -393,7 +404,5 @@ figure {
         border-radius: 4px;
         left: calc(50% - 2px);
         top: calc(-10% - 2px);
-
     }
-
 }
