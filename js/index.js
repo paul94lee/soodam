@@ -2,11 +2,11 @@ $(function () {
     var seoul = ['종로구', '중구', '용산구', '성동구', '광진구', '동대문구', '중랑구', '성북구', '강북구', '도봉구', '노원구', '은평구', '서대문구', '마포구', '양천구',
         '강서구', '구로구', '금천구', '영등포구', '동작구', '관악구', '서초구', '강남구', '송파구', '강동구'
     ];
-    var gyeong = ['수원', '성남', '의정부', '안양', '부천', '광명', '평택', '동두천 / 연천', '안산', '고양', '의왕 / 과천', '구리', '남양주', '오산', '시흥', '군포', '하남', '용인', '파주', '이천', '안성', '김포', '화성', '광주', '양주', '포천 / 가평', '여주 / 양평'];
-    var creative = ['미술', '공예', '음식/요리', '라이프스타일'];
+    var gyeong = ['수원', '성남', '의정부', '안양', '부천', '광명', '평택', '동두천 &#47; 연천', '안산', '고양', '의왕 &#47; 과천', '구리', '남양주', '오산', '시흥', '군포', '하남', '용인', '파주', '이천', '안성', '김포', '화성', '광주', '양주', '포천 &#47; 가평', '여주 &#47; 양평'];
+    var creative = ['미술', '공예', '음식&#47;요리', '라이프스타일'];
     var development = ['어학', 'IT', '재테크', '커뮤니케이션'];
     var each = ['20000', '40000', '60000', '80000'];
-
+    var sendArr = [];
     $.ajax({
         url: 'json/data.json',
         type: 'GET',
@@ -192,35 +192,41 @@ $(function () {
                 });
             };
         };
-
         $('.data-field ul li').on('click', function (e) {
             e.stopPropagation();
             $('.data-field ul li').removeClass('active');
-
             $(this).addClass('active');
-
-
         });
-
-
     };
     $('.data-field').on('click', function (e) {
         e.stopPropagation();
     });
+
     $('.data-field button').on('click', function () {
-
-        if (liIndex == 0) {
-            $('form input[name="location"]').attr('value', $('.data-field ul li.active').text())
-        }
-        else if (liIndex == 1) {
-            $('form input[name="categ"]').attr('value', $('.data-field ul li.active').text())
-        }
-        else if (liIndex == 2) {
-            $('form input[name="cost"]').attr('value', $('.data-field ul li.active').text())
-        }
+        $(this).parents('.white_list').find('.list-a p').hide().eq(1).show();
         $('.white_list').removeClass('active');
-
+        $(this).parents('.white_list').find('.list-a p span').eq(1).text($('.data-field ul li.active').text());
+        sendArr[liIndex] = $('.data-field ul li.active').text();
+        console.log(sendArr);
     });
+
+    $('.list-a p svg').on('click', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        $(this).parents('.list-a').find('p').hide().eq(0).show();
+        $(this).parents('.white_list').removeClass('active');
+        sendArr[$(this).parents('.white_list').index()] = '';
+        console.log(sendArr);
+    });
+    $('.sendingBtn').on('click', function (e) {
+        e.preventDefault();
+        var myStorage = window.localStorage;
+        localStorage.setItem('location', sendArr[0]);
+        localStorage.setItem('class', sendArr[1]);
+        localStorage.setItem('cost', sendArr[2]);
+        location.href = "student-class.html";
+    });
+
 
     slide();
     searchbar();
