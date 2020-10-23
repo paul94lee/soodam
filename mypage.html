@@ -5,22 +5,65 @@
     <meta charset="UTF-8">
     <link href="css/mypage.css" rel="stylesheet" type="text/css">
     <title>Soodam</title>
-
+    
     <link rel="icon" href="img/soodam.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/header.js"></script>
+    <script src="js/mypage.js"></script>
+    
 
 </head>
 
-<body>
+ <body>
 
-    <header>    </header>
+    <header>
+        <div class="head1">
+            <div class="hamburger type1">
+                <div class="menu_icon">
+                    <span class="border1 border"></span>
+                    <span class="border2 border"></span>
+                    <span class="border3 border"></span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">about us</a> </li>
+                    <li>
+                        <a href="classcafe.html">카페 찾기</a>
+                    </li>
+                    <li>
+                        <a href="cafe-class.html">클래스 찾기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
-    <main>
+        <div class="head2">
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <nav class="navi head1">
+            <ul>
+
+                <li>
+                    <a href="cafeD.html">카페 등록</a>
+                </li>
+                <li>
+                    <a href="#">클래스 등록</a>
+                </li>
+                <li>
+                    <a href="#">로그인/회원가입</a>
+                </li>
+
+                <li>
+                    <a href="mypage.html">마이페이지</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+     <main>
         <div class="visual">
             <img src="img/main_background.svg" alt="">
             <p>
@@ -51,151 +94,150 @@
 
             <div class="con2">
                 <div class="alstjd">
-                    <div class="btn">
-                        <ul>
-                            <li><a class="on" href="#">클래스 신청내역</a></li>
-                            <li><a href="#">카페 예약내역</a></li>
-                            <li><a href="#">내 클래스</a></li>
-                            <li><a href="#">예약 일정</a></li>
+                   <div class="btn">
+                    <ul>
+                        <li><a class="on" href="0">클래스 신청내역</a></li>
+                        <li><a href="1">카페 예약내역</a></li>
+                        <li><a href="2">내 클래스</a></li>
+                        <li><a href="3">예약 일정</a></li>
 
-                        </ul>
+                    </ul>
                     </div>
                     <div class="rlaalstjd">
-                        <div class="alstjd1 none">
-                            <!--addclass removeclass hide show toggleClass-->
-                            <h2>Create</h2>
-                            <div class=a1_a2>
-                                <div class=a1>
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
-                                <div class=a2>
-                                    <a href="#">
-                                        <img src="img/card-2.jpg">
-                                        <h2>아이패드로 완성하는 일러스트</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>5회 8만원</p>
-                                    </a>
-                                </div>
-                                <div class=a2>
-                                    <a href="#">
-                                        <img src="img/card-3.jpg">
-                                        <h2>아이패드로 완성하는 일러스트</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>5회 8만원</p>
-                                    </a>
-                                </div>
-                                <div class=a2>
-                                    <a href="#">
-                                        <img src="img/card-4.jpg">
-                                        <h2>아이패드로 완성하는 일러스트</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>5회 8만원</p>
-                                    </a>
-                                </div>
+                    <div class="alstjd1"> <!--addclass removeclass hide show toggleClass-->
+                        <h2>Create</h2>
+                            <div class= a1_a2>
+                            <div class=a1>
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
                             </div>
-
-                            <h2>Development</h2>
-                            <div class="a1_a2">
-                                <div class="a1">
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
+                            <div class=a2>
+                                <a href="#">
+                                <img src="img/card-2.jpg">
+                                <h2>아이패드로 완성하는 일러스트</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>5회 8만원</p>
+                                </a>
                             </div>
-                        </div>
-                        <div class="alstjd2">
-                            <h2>Create</h2>
-                            <div class=a1_a2>
-                                <div class="a1">
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
-                                <div class="a2">
-                                    <figure>
-                                        <img src="img/55.jpg">
-                                        <figcaption>
-                                            <h2>bB커피</h2>
-                                            <p>
-                                                역삼 역에서 15분 거리에 있는 루프 탑 카페입니다. 루프탑에 클래스를 열 수 있는 넓은 공간이 있습니다.
-                                            </p>
-                                            <span>장소:서울시 강남구 역삼동 1동 26-8 4층
-                                                조건 : 1인당 1음료
-                                                2020.08.20 시간: 12:00 ~ 16:00
-                                            </span>
-                                        </figcaption>
-                                    </figure>
-                                </div>
+                            <div class=a2>
+                                <a href="#">
+                                <img src="img/card-3.jpg">
+                                <h2>아이패드로 완성하는 일러스트</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>5회 8만원</p>
+                                </a>
                             </div>
-                            <div class="a1_2">
-                                <h2>Development</h2>
-                                <div class="a1">
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
+                            <div class=a2>
+                                <a href="#">
+                                <img src="img/card-4.jpg">
+                                <h2>아이패드로 완성하는 일러스트</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>5회 8만원</p>
+                                </a>
                             </div>
-
-
-                        </div>
-                        <div class="alstjd3 none">
-                            <h2>Create</h2>
-                            <div class=a1_a2>
-                                <div class=a1>
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
-                                <div class=a2>
-                                    <a href="#">
-                                        <img src="img/card-2.jpg">
-                                        <h2>아이패드로 완성하는 일러스트</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>5회 8만원</p>
-                                    </a>
-                                </div>
                             </div>
-
-                            <h2>Development</h2>
-                            <div class="a1_a2">
-                                <div class=a1>
-                                    <a href="#">
-                                        <img src="img/card-1.jpg">
-                                        <h2>손뜨게 가방 만들기</h2>
-                                        <h3>역삼1동 000-00번지 2층</h3>
-                                        <p>10회 11만원</p>
-                                    </a>
-                                </div>
+                        
+                             <h2>Development</h2>
+                             <div class="a1_a2">
+                            <div class="a1">
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
                             </div>
-                        </div>
-                        <div class="alstjd4 none">
-                            <img src="img/cal.jpg" alt="달력">
-                        </div>
+                            </div>
                     </div>
+                    <div class="alstjd2 none">
+                        <h2>Create</h2>
+                            <div class= a1_a2>
+                            <div class="a1">
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
+                            </div>
+                            <div class="a2">
+                               <figure>
+                                <img src="img/55.jpg">
+                                <figcaption>
+                                <h2>bB커피</h2>
+                                <p>
+                                    역삼 역에서 15분 거리에 있는 루프 탑 카페입니다. 루프탑에 클래스를 열 수 있는 넓은 공간이 있습니다.
+                                </p>
+                                <span>장소:서울시 강남구 역삼동 1동 26-8 4층
+                                조건 :  1인당 1음료
+                                2020.08.20  시간: 12:00 ~ 16:00
+                                </span>
+                                </figcaption>
+                                </figure>
+                            </div>
+                            </div>
+                        <div class="a1_2">
+                             <h2>Development</h2>
+                            <div class="a1">
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
+                            </div>
+                            </div>
+                            
+                            
+                    </div>
+                    <div class="alstjd3 none">
+                            <h2>Create</h2>
+                            <div class= a1_a2>
+                            <div class=a1>
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
+                            </div>
+                            <div class=a2>
+                                <a href="#">
+                                <img src="img/card-2.jpg">
+                                <h2>아이패드로 완성하는 일러스트</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>5회 8만원</p>
+                                </a>
+                            </div>
+                            </div>
+                        
+                             <h2>Development</h2>
+                             <div class="a1_a2">
+                            <div class=a1>
+                                <a href="#">
+                                <img src="img/card-1.jpg">
+                                <h2>손뜨게 가방 만들기</h2>
+                                <h3>역삼1동 000-00번지 2층</h3>
+                                <p>10회 11만원</p>
+                                </a>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="alstjd4 none">
+                    <img src="img/cal.jpg" alt="달력">
+                    </div> 
+                        </div>
                 </div>
             </div>
 
         </div>
 
 
-
+        
 
     </main>
 

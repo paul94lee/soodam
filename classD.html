@@ -7,16 +7,59 @@
     <title>Soodam</title>
     <link rel="icon" href="img/soodam.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/classD.js"></script>
 
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/header.js"></script>
 </head>
 
 <body>
 
 
-    <header> </header>
+    <header>
+        <div class="head1">
+            <div class="hamburger type1">
+                <div class="menu_icon">
+                    <span class="border1 border"></span>
+                    <span class="border2 border"></span>
+                    <span class="border3 border"></span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="aboutus.html">about us</a> </li>
+                    <li>
+                        <a href="classcafe.html">카페 찾기</a>
+                    </li>
+                    <li>
+                        <a href="cafe-class.html">클래스 찾기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="head2">
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <nav class="navi head1">
+            <ul>
+
+                <li>
+                    <a href="cafeD.html">카페 등록</a>
+                </li>
+                <li>
+                    <a href="classD.html">클래스 등록</a>
+                </li>
+                <li>
+                    <a href="#">로그인/회원가입</a>
+                </li>
+
+                <li>
+                    <a href="mypage.html">마이페이지</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <div class="visual">
@@ -25,237 +68,230 @@
                 <span>클</span><span>래</span><span>스</span> 등록
             </p>
         </div>
-
-        <div class="contents">
-            <div class="side_menu">
-                <ul>
-                    <li><span class="click">0</span> <a href="#">클래스 선택</a></li>
-                    <li><span>1</span> <a href="#">기본 정보</a></li>
-                    <li><span>2</span> <a href="#">제목 및 커버</a></li>
-                    <li><span>3</span> <a href="#">소개</a></li>
-                    <li><span>4</span> <a href="#">크리에이터 소개</a></li>
-                    <li><span>5</span> <a href="#">생성 전 확인사항</a></li>
-                </ul>
-            </div>
-
-            <div class="con1">
-                <div class="create">
-                    <h2>내 클래스 목록</h2>
-                    <p>Create</p>
-                    <div class="img">
-                        <a href="#"><img src="img/climg1.jpg" alt="">
-                            <p>공기처럼 익숙해진 공간에 상상을 입히는 드로잉</p>
-                        </a>
-                        <a href="#"><img src="img/climg2.jpg" alt="">
-                            <p>김민성의 요리비책 한식편</p>
-                        </a>
-                        <a href="#"><img src="img/climg3.jpg" alt="">
-                            <p>아름다운 수채화를 그리기 위한 필승법!</p>
-                        </a>
+        
+    <div class="contents">
+        <div class="side_menu">
+            <ul>
+                <li><span class="click">0</span> <a href="0">클래스 선택</a></li>
+                <li><span>1</span> <a href="#">기본 정보</a></li>
+                <li><span>2</span> <a href="#">제목 및 커버</a></li>
+                <li><span>3</span> <a href="#">소개</a></li>
+                <li><span>4</span> <a href="#">크리에이터 소개</a></li>
+                <li><span>5</span> <a href="#">생성 전 확인사항</a></li>
+            </ul>
+        </div>
+        
+        <div class="con1">
+            <div>
+           <div class="create">
+               <h2>내 클래스 목록</h2>
+               <p>Create</p>
+               <div class="img">
+                   <a href="#"><img src="img/climg1.jpg" alt=""><p>공기처럼 익숙해진 공간에 상상을 입히는 드로잉</p></a>
+                   <a href="#"><img src="img/climg2.jpg" alt=""><p>김민성의 요리비책 한식편</p></a>
+                   <a href="#"><img src="img/climg3.jpg" alt=""><p>아름다운 수채화를 그리기 위한 필승법!</p></a>
+               </div>
+           </div>
+           <div class="develop">
+               <p>Development</p>
+               <div class="img">
+                   <a href="#"><img src="img/climg4.jpg" alt=""><p>최강! 웹퍼블리셔의 길</p></a>
+               </div>
+           </div>
+        </div>
+           
+            <div class="class_info">
+                <h2>간단하게 어떤 클래스인지 알려주세요.</h2>
+                <p>언젠가 이런 걸 가르쳐봐야지 생각해본 적이 있으신가요? 간단히 크리에이터님이 알려 줄 수 있는 카테고리를 설정해봐요. 모든 수정사항은 즉시 저장되니 안심해 주세요.</p>
+                <div class="info">
+                   <div class="brand">
+                    <h3>브랜드</h3>
+                    <form>
+                        <select name="brand_s">
+                            <option value=""></option>
+                            <option value="career">커리어</option>
+                            <option value="development">자기개발</option>
+                        </select>
+                    </form>
                     </div>
-                </div>
-                <div class="develop">
-                    <p>Development</p>
-                    <div class="img">
-                        <a href="#"><img src="img/climg4.jpg" alt="">
-                            <p>최강! 웹퍼블리셔의 길</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="class_info">
-                    <h2>간단하게 어떤 클래스인지 알려주세요.</h2>
-                    <p>언젠가 이런 걸 가르쳐봐야지 생각해본 적이 있으신가요? 간단히 크리에이터님이 알려 줄 수 있는 카테고리를 설정해봐요. 모든 수정사항은 즉시 저장되니 안심해 주세요.</p>
-                    <div class="info">
-                        <div class="brand">
-                            <h3>브랜드</h3>
-                            <form>
-                                <select name="brand_s">
-                                    <option value=""></option>
-                                    <option value="career">커리어</option>
-                                    <option value="development">자기개발</option>
-                                </select>
-                            </form>
-                        </div>
-                        <div class="category">
-                            <h3>카테고리</h3>
-                            <form>
-                                <select name="category_s">
-                                    <option value=""></option>
-                                    <option value="">미술</option>
-                                    <option value="">공예</option>
-                                    <option value="">디지털 드로잉</option>
-                                    <option value="">라이프 스타일</option>
-                                    <option value="">디자인/개발</option>
-                                    <option value="">사진/영상</option>
-                                    <option value="">요리/음료</option>
-                                    <option value="">음악</option>
-                                    <option value="">운동</option>
-                                    <option value="">부업</option>
-                                    <option value="">창업</option>
-                                    <option value="">재테크</option>
-                                    <option value="">자기개발</option>
-                                    <option value="">직무</option>
-
-                                </select>
-                            </form>
+                    <div class="category">
+                    <h3>카테고리</h3>
+                    <form>
+                    <select name="category_s">
+                            <option value=""></option>
+                            <option value="">미술</option>
+                            <option value="">공예</option>
+                            <option value="">디지털 드로잉</option>
+                            <option value="">라이프 스타일</option>
+                            <option value="">디자인/개발</option>
+                            <option value="">사진/영상</option>
+                            <option value="">요리/음료</option>
+                            <option value="">음악</option>
+                            <option value="">운동</option>
+                            <option value="">부업</option>
+                            <option value="">창업</option>
+                            <option value="">재테크</option>
+                            <option value="">자기개발</option>
+                            <option value="">직무</option>
+                            
+                        </select>
+                        </form>
                         </div>
                         <div class="sebu">
                             <h3>세부 카테고리</h3>
-                            <p>예를 들어, 가죽공예, 어반 스케치, 딥펜 캘리그라피, 다이어리 꾸미기, 가계부 작성, 색연필 인물화, 네이버 스토어 운영, 이런 식으로 작성하시면 됩니다. 더
-                                자세한 내용을 보고 싶다면, <strong>기본 정보 작성 가이드</strong>를 확인해 주세요.</p>
+                            <p>예를 들어, 가죽공예, 어반 스케치, 딥펜 캘리그라피, 다이어리 꾸미기, 가계부 작성, 색연필 인물화, 네이버 스토어 운영, 이런 식으로 작성하시면 됩니다.  더 자세한 내용을 보고 싶다면, <strong>기본 정보 작성 가이드</strong>를 확인해 주세요.</p>
                             <input type="text" placeholder=" 예) 가죽공에, 어반스케치, 딥펜 캘리그라피 등등 직접 작성">
                         </div>
                         <div class="level">
                             <h3>난이도</h3>
                             <form>
-                                <select name="level_s">
-                                    <option value=""></option>
-                                    <option value="">처음하는 사람</option>
-                                    <option value="">초보자</option>
-                                    <option value="">중간</option>
-                                    <option value="">고수</option>
-                                </select>
-                            </form>
+                            <select name="level_s">
+                            <option value=""></option>
+                            <option value="">처음하는 사람</option>
+                            <option value="">초보자</option>
+                            <option value="">중간</option>
+                            <option value="">고수</option>
+                        </select>
+                        </form>
                         </div>
                         <div class="date">
                             <h3>날짜 및 시간</h3>
-                            <form>
-                                <input type="date">
-                                <p>
-                                    <select name="day_s">
-                                        <option value="">요일</option>
-                                        <option value="">월요일</option>
-                                        <option value="">화요일</option>
-                                        <option value="">수요일</option>
-                                        <option value="">목요일</option>
-                                        <option value="">금요일</option>
-                                        <option value="">토요일</option>
-                                        <option value="">일요일</option>
-                                    </select>
-                                </p>
-                                <input type="time"> ㅡ <input type="time">
+                             <form>
+                            <input type="date">
+                            <p>
+                            <select name="day_s">
+                               <option value="">요일</option>
+                                <option value="">월요일</option>
+                                <option value="">화요일</option>
+                                <option value="">수요일</option>
+                                <option value="">목요일</option>
+                                <option value="">금요일</option>
+                                <option value="">토요일</option>
+                                <option value="">일요일</option>
+                            </select>
+                            </p>
+                            <input type="time"> ㅡ <input type="time">
                             </form>
                         </div>
-                    </div>
-                </div>
-
-                <div class="cover_thum">
-                    <h2>클래스의 컨셉이 잘 드러난 제목과 이미지를 보여주세요.</h2>
-                    <p>감성적이면서도 클래스를 잘 표현하는 제목과 이미지를 등록해 주세요.</p>
-                    <div class="float">
-                        <div class="floatL">
-                            <h3>커버 이미지</h3>
-                            <a href="#"><img src="img/photo1.jpg" width="250px" height="250px"></a>
-                        </div>
-                        <div class="floatR">
-                            <h3>클래스 제목</h3>
-                            <input type="text">
-                            <div class="coverEx">
-                                <h3>이미지예시</h3>
-                                <img src="img/cover1.jpg"><img src="img/cover2.jpg"><img src="img/cover3.jpg">
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="float">
-                        <div class="floatL">
-                            <h3>썸네일 이미지</h3>
-                            <a href="#"><img src="img/photo1.jpg" width="250px" height="200px"></a>
-                        </div>
-
-                        <div class="floatR">
-
-                            <h2>썸네일 이미지가 어디에 사용되나요?</h2>
-                            <p>썸네일 이미지는 아래와 같이 홈페이지의 메인, 수요 조사 메인 페이지에서 보이는 이미지에요. 커버 이미지와 다르게 세로형이 아닌 가로형 이미지에
-                                최적화돼있습니다.</p>
-                            <div class="thumEx">
-                                <img src="img/thum1.jpg"><img src="img/thum2.jpg"><img src="img/thum3.jpg">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="info3">
-                    <h2>어떤 걸 알려주실 수 있나요?</h2>
-                    <p>클래스를 통해 알려주실 것과 완성할 수 있는 것들을 간단히 설명해 주세요.</p>
-                    <div class="info3_1">
-                        <ul>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                            <li>
-                                <a href="#">이미지</a>
-                                <input type="text" placeholder="설명">
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="myinfo">
-                    <h2>본인에 대해 소개해주세요.</h2>
-                    <div class="float">
-                        <div class="floatL">
-                            <h3>프로필</h3>
-                            <a href="#"><img src="img/myphoto.jpg"></a>
-                        </div>
-                        <div class="floatR">
-                            <h3>SNS</h3>
-                            <a href="#">facebook.com/king</a>
-                            <a href="#">채널 추가하기 <strong>+</strong></a>
-                        </div>
-                    </div>
-                    <div class="nickname">
-                        <h3>크리에이터 닉네임</h3>
-                        <input type="text">
-                        <p>크리에이터 닉네임을 설정해주세요. 최대7자</p>
-                    </div>
-                    <div class="phoneNum">
-                        <h3>연락처</h3>
-                        <input type="text" placeholder="'-'는 빼고 입력해주세요.">
-                    </div>
-                    <div class="introduce">
-                        <h3>크리에이터 소개</h3>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="advice">
-                    <h2>생성 전 확인사항</h2>
-                    <ul>
-                        <li>1. 카테고리는 정확히 확인하셨나요?</li>
-                        <li>2. 이미지는 제대로 선택하셨나요?</li>
-                        <li>3. 본인 강의의 매력을 잘 소개하셨나요?</li>
-                        <li>4. 본인에 대하여 잘 소개하셨나요?</li>
-                        <li>5. 클래스 생성 후 일정을 잡으신 뒤 돈은 받고 강의는 안하는 먹튀같은 행위를 하시면 법적 처벌을 받을 수 있습니다.</li>
-                        <li>6. 규정에 맞지 않는 행동을 하여 수강생이 환불을 요구할시 본인의 책임이 있습니다.</li>
-                    </ul>
-                </div>
-                <div class="save">
-                    <a href="#">등록</a>
                 </div>
             </div>
+           
+           <div class="cover_thum">
+               <h2>클래스의 컨셉이 잘 드러난 제목과 이미지를 보여주세요.</h2>
+               <p>감성적이면서도 클래스를 잘 표현하는 제목과 이미지를 등록해 주세요.</p>
+                  <div class="float">
+                  <div class="floatL">
+                  <h3>커버 이미지</h3>
+                  <a href="#"><img src="img/photo1.jpg" width="250px" height="250px"></a>
+                  </div>
+                  <div class="floatR">
+                  <h3>클래스 제목</h3>
+                  <input type="text">
+                  <div class="coverEx">
+                      <h3>이미지예시</h3>
+                      <img src="img/cover1.jpg"><img src="img/cover2.jpg"><img src="img/cover3.jpg">
+                  </div>    
+                      
+                  </div>
+               
+               
+           </div>
+           
+           <div class="float">
+               <div class="floatL">
+                   <h3>썸네일 이미지</h3>
+                   <a href="#"><img src="img/photo1.jpg" width="250px" height="200px"></a>
+               </div>
+               
+               <div class="floatR">
+                   
+                       <h2>썸네일 이미지가 어디에 사용되나요?</h2>
+                       <p>썸네일 이미지는 아래와 같이 홈페이지의 메인, 수요 조사 메인 페이지에서 보이는 이미지에요. 커버 이미지와 다르게 세로형이 아닌 가로형 이미지에 최적화돼있습니다.</p>
+                       <div class="thumEx">
+                       <img src="img/thum1.jpg"><img src="img/thum2.jpg"><img src="img/thum3.jpg">
+                   </div>
+               </div>
+               
+           </div>
+           </div>
+           
+           <div class="info3">
+               <h2>어떤 걸 알려주실 수 있나요?</h2>
+               <p>클래스를 통해 알려주실 것과 완성할 수 있는 것들을 간단히 설명해 주세요.</p>
+               <div class="info3_1">
+                   <ul>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                       <li>
+                           <a href="#">이미지</a>
+                           <input type="text" placeholder="설명">
+                       </li>
+                   </ul>
+                   
+               </div>
+           </div>
+           <div class="myinfo">
+               <h2>본인에 대해 소개해주세요.</h2>
+               <div class="float">
+                   <div class="floatL">
+                       <h3>프로필</h3>
+                       <a href="#"><img src="img/myphoto.jpg"></a>
+                   </div>
+                   <div class="floatR">
+                        <h3>SNS</h3>
+                        <a href="#">facebook.com/king</a>
+                        <a href="#">채널 추가하기 <strong>+</strong></a>
+                   </div>
+               </div>
+               <div class="nickname">
+                   <h3>크리에이터 닉네임</h3>
+                   <input type="text">
+                   <p>크리에이터 닉네임을 설정해주세요. 최대7자</p>     
+               </div>
+               <div class="phoneNum">
+                   <h3>연락처</h3>
+                   <input type="text" placeholder="'-'는 빼고 입력해주세요.">
+               </div>
+               <div class="introduce">
+                   <h3>크리에이터 소개</h3>
+                   <input type="text">
+               </div>
+           </div>
+           <div class="advice">
+               <h2>생성 전 확인사항</h2>
+               <ul>
+                   <li>1. 카테고리는 정확히 확인하셨나요?</li>
+                   <li>2. 이미지는 제대로 선택하셨나요?</li>
+                   <li>3. 본인 강의의 매력을 잘 소개하셨나요?</li>
+                   <li>4. 본인에 대하여 잘 소개하셨나요?</li>
+                   <li>5. 클래스 생성 후 일정을 잡으신 뒤 돈은 받고 강의는 안하는 먹튀같은 행위를 하시면 법적 처벌을 받을 수 있습니다.</li>
+                   <li>6. 규정에 맞지 않는 행동을 하여 수강생이 환불을 요구할시 본인의 책임이 있습니다.</li>
+               </ul>
+           </div>
+           
         </div>
+        <div class="save">
+            <a href="#">등록</a>
+        </div>
+    </div>
 
     </main>
 

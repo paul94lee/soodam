@@ -19,9 +19,11 @@
 .side_menu {
     width: 193px;
     border-right: 1px solid #f3848f;
-    height: 970px;
     margin-top: 50px;
     float: left;
+    position:sticky;
+    top:0;
+    height:980px;
 }
 
 .side_menu ul li {
@@ -39,6 +41,7 @@
     border-radius: 10px;
     text-align: center;
     padding-top: 1px;
+    transition:.5s;
 }
 .click{background:#f3848f;}
 
@@ -46,6 +49,7 @@
     margin-left: 20px;
     padding-top: 1px;
 }
+
 
 .con1 {
     float: left;
@@ -199,12 +203,6 @@ margin-top:10px;}
     line-height: 40px; text-align:center;
 }
 
-
-
-
-
-
-
 @media all and (min-width:768px) and (max-width:1024px){
     .contents{width:100%;}
     .side_menu{display:none;}
@@ -257,14 +255,6 @@ margin-top:10px;}
     margin-left:5px;
     }
 }
-
-
-
-
-
-
-
-
 
 @media all and (min-width:320px) and (max-width:767px){
     .contents{width:100%;}

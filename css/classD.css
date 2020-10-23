@@ -41,6 +41,7 @@
     border-radius: 10px;
     text-align: center;
     padding-top: 1px;
+    transition:.5s;
 }
 .click{background:#f3848f;}
 
@@ -247,7 +248,7 @@
     font-size:24px;
 }
 
-.save{text-align: end; margin-top:20px;}
+.save{text-align: end; }
 .save a{
     display:inline-block;
     width:80px;
@@ -255,6 +256,7 @@
     background:#f3848f;
     border-radius:10px;
     line-height: 40px; text-align:center;
+    margin-top:20px;
 }
 
 
