@@ -114,7 +114,6 @@
     right: 100%;
     border: none;
     background: none;
-   
 }
 .popup .rightBtn {
     position: absolute;
@@ -124,7 +123,6 @@
     left: 100%;
     border: none;
     background: none;
-    
 }
 
 .main-area {
@@ -521,6 +519,115 @@
 
     .curri div ul > li div {
         margin-left: 0;
+    }
+
+    .fix-sidebar {
+        position: none;
+        width: 100%;
+    }
+
+    .fix-sidebar div {
+        border: none;
+        padding: 0;
+    }
+
+    .fix-sidebar div p,
+    .fix-sidebar div li {
+        font-size: 15px !important;
+    }
+
+    .fix-sidebar > div > div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fix-sidebar .btn {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .fix-sidebar .btn a {
+        width: 100%;
+
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1152px) {
+    main{
+        width: 100% !important;
+    }
+    .img-area {
+        width: 100% !important;
+    }
+
+    .main-area {
+        width: 100% !important;
+    }
+
+    .content-bind {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fix-sidebar > div > div:nth-of-type(1) {
+        padding: 0;
+        min-height: 70px;
+    }
+    .title-area img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fix-sidebar .btn,
+    .fix-sidebar .btn a {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .img-area {
+        width: 100% !important;
+    }
+
+    .img-area > img {
+        
+        width: 100% ;
+        
+        height: auto;
+    }
+
+    .img-area div {
+        display: none;
+    }
+
+    .main-area {
+        width: 100%;
+        display: block;
+        position: relative;
+        width: 100% !important;
+    }
+
+    .content-area,
+    .content-area > * {
+        width: 100%;
+    }
+
+    .content-area > div > div {
+        margin: 0 auto;
+    }
+
+    .content-header ul li a {
+        font-size: 12px;
+    }
+
+    .content-bind div p {
+        font-size: 15px !important;
+    }
+
+    .content-bind div li {
+        font-size: 15px !important;
     }
 
     .fix-sidebar {

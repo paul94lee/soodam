@@ -166,6 +166,9 @@
 .white > ul > li p img {
   padding-left: 5px;
 }
+.white > ul > li p img {
+  height: 100%;
+}
 .white ul > li .srch-detail {
   display: none;
 }
@@ -564,8 +567,51 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
+
   .main-visual {
     background: none;
+  }
+  
+  .main-visual.content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+  }
+  .cont {
+    width: 100%;
+    height: 100%;
+  }
+  .cont > p {
+    font-size: 12px;
+    color: #fff;
+    line-height: normal;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .cont a figure p {
+    position: absolute;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .cont a figure p:nth-of-type(1) {
+    font-size: 13px;
+  }
+  .cont a figure p:nth-of-type(2) {
+    font-size: 18px;
+  }
+  .cont > p:nth-of-type(2) {
+    font-size: 10px;
+    white-space: pre-line;
+    margin-top: 5px;
+    font-weight: bold;
   }
   header,
   main {
@@ -639,6 +685,27 @@
   .pink ul li p {
     font-size: 8px;
     padding: 5px 0;
+  }
+  .white > ul > li .srch-detail > div ul li {
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px !important;
+  }
+  .white > ul > li .srch-detail > div ul li.active {
+    background-color: #f74f4f;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .white > ul > li .search-loca > div {
+    height: 300px;
+  }
+  .white > ul > li .search-class > div {
+    height: 140px;
+  }
+  .white > ul > li .search-cost > div {
+    width: 100%;
+    height: 220px;
   }
   .order ul {
     width: 70%;
@@ -731,7 +798,7 @@
     height: 300px;
     padding: 20px 0;
   }
-  .content {
+  .main-visual.content {
     width: 100%;
     height: 100%;
     padding: 0;

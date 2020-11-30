@@ -96,14 +96,14 @@
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
-            "imgSrc": "img/new-card2.jpg",
+            "imgSrc": "img/card-3.jpg",
             "categ": "making",
             "subCateg": "공예",
-            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "tit": "돌잔치 우리아이 특별한 가렌드",
             "address": "역삼 1동 000-00번지 2층",
             "price": "10회 11만원",
             "location": "종로구",
-            "cost":"22000"
+            "cost":"47000"
         },
         {
             "classify": "newthing",
@@ -134,50 +134,50 @@
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
-            "imgSrc": "img/new-card4.jpg",
+            "imgSrc": "img/card-3.jpg",
             "categ": "making",
             "subCateg": "공예",
-            "tit": "미니데코와 함께하는 미니어쳐 세상",
+            "tit": "돌잔치 우리아이 특별한 가렌드",
             "address": "역삼 1동 000-00번지 2층",
             "price": "10회 11만원",
             "location": "종로구",
-            "cost":"45000"
+            "cost":"47000"
         },
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
-            "imgSrc": "img/new-card4.jpg",
+            "imgSrc": "img/card-3.jpg",
             "categ": "making",
             "subCateg": "공예",
-            "tit": "미니데코와 함께하는 미니어쳐 세상",
-            "address": "성동구 1동 000-00번지 2층",
+            "tit": "돌잔치 우리아이 특별한 가렌드",
+            "address": "역삼 1동 000-00번지 2층",
             "price": "10회 11만원",
-            "location": "성동구",
-            "cost":"10000"
+            "location": "종로구",
+            "cost":"47000"
         },
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
-            "imgSrc": "img/new-card4.jpg",
+            "imgSrc": "img/card-3.jpg",
             "categ": "making",
             "subCateg": "공예",
-            "tit": "미니데코와 함께하는 미니어쳐 세상",
-            "address": "중구 1동 000-00번지 2층",
+            "tit": "돌잔치 우리아이 특별한 가렌드",
+            "address": "역삼 1동 000-00번지 2층",
             "price": "10회 11만원",
-            "location": "중구",
-            "cost":"10000"
+            "location": "종로구",
+            "cost":"47000"
         },
         {
             "classify": "newthing",
             "link": "user-class-detail.html",
-            "imgSrc": "img/new-card4.jpg",
+            "imgSrc": "img/card-3.jpg",
             "categ": "making",
             "subCateg": "공예",
-            "tit": "미니데코와 함께하는 미니어쳐 세상",
-            "address": "용산 1동 000-00번지 2층",
-            "price": "10회 만원",
-            "location": "용산구",
-            "cost":"10000"
+            "tit": "돌잔치 우리아이 특별한 가렌드",
+            "address": "역삼 1동 000-00번지 2층",
+            "price": "10회 11만원",
+            "location": "종로구",
+            "cost":"47000"
         }
     ]
 }
