@@ -566,7 +566,7 @@
   top: calc(-10% - 4px);
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 0px) and (max-width: 767px) {
 
   .main-visual {
     background: none;
@@ -798,7 +798,7 @@
     height: 300px;
     padding: 20px 0;
   }
-  .main-visual.content {
+  .main-visual .content {
     width: 100%;
     height: 100%;
     padding: 0;
