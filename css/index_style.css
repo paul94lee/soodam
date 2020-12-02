@@ -899,7 +899,7 @@
   }
 }
 
-@media all and (min-width: 1024px) and(max-width: 1920px) {
+@media all and (width: 1024px) {
   .main-visual {
     background: url(../img/main_background.svg) right no-repeat;
     background-size: 120%;
